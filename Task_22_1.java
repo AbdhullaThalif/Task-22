@@ -58,7 +58,7 @@ public class Task_22_1 {
 		TakesScreenshot scr = (TakesScreenshot) driver;
 		// Saving the screenshot in desired location
 		File src = scr.getScreenshotAs(OutputType.FILE);
-		// Path to the location to save screenshot
+		// Path to the location to save the screenshot
 		FileUtils.copyFile(src, new File("C://Users/ELCOT/eclipse-workspace/GuviTask/ScreenShots/Proof.png"));
 	}
 }
